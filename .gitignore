@@ -22,4 +22,7 @@ out/
 *.tar.gz
 *.rar
 
+.floo
+.flooignore
+
 !gradle-wrapper.jar
