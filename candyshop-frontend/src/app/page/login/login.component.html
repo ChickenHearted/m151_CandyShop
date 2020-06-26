@@ -1,44 +1,41 @@
-<main class="page login-page" style="height: 100%;">
+<main style="height: 100%;">
   <section
-    class="clean-block clean-form text-center d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
     style="padding-bottom: 0;height: 100%;">
-    <div class="container">
-      <i class="far fa-user d-flex justify-content-center align-items-center"
-         style="font-size: 40px;margin-top: 15px;"></i>
+    <div>
+      <i style="font-size: 40px;margin-top: 15px;"></i>
       <div>
-        <p
-          class="text-center d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-          style="margin-bottom: 0;height: 50px;">Melde dich an oder erstelle einen neuen Account.
+        <p style="margin-bottom: 0;height: 50px;">
+          Melde dich an oder erstelle einen neuen Account.
         </p>
       </div>
-      <form class="text-left" style="background-color: #222;border-color: darkorange;">
+      <form class="text-left">
         <div class="form-group">
           <label for="email">Email</label>
-          <input class="form-control item" id="email" name="email" type="email">
+          <input id="email" name="email" type="email">
         </div>
-        <div class="form-group" class="alert alert-danger">Ungültige Email</div>
-        <div class="form-group">
+        <div>Ungültige Email</div>
+        <div>
           <label for="password">Passwort</label>
-          <input class="form-control item" id="password" name="password" type="password">
+          <input id="password" name="password" type="password">
         </div>
-        <div class="form-group" class="alert alert-danger">Ungültiges Passwort.</div>
-        <div class="form-group" class="alert alert-danger">Benutzer nicht gefunden.</div>
-        <div class="form-check">
-          <input class="form-check-input" id="checkbox" name="remember" type="checkbox">
+        <div>Ungültiges Passwort.</div>
+        <div>Benutzer nicht gefunden.</div>
+        <div>
+          <input id="checkbox" name="remember" type="checkbox">
           <label for="checkbox">Remember me</label>
         </div>
-        <button class="btn btn-primary btn-block" type="submit">
+        <button type="submit">
           Anmelden
         </button>
-        <button class="btn btn-outline-primary btn-block" routerLink="/register" type="submit">
+        <button routerLink="/register" type="submit">
           Registrieren
         </button>
-        <div class="d-flex justify-content-center align-items-center" style="margin-top: 21px;">
+        <div style="margin-top: 21px;">
           <a><i class="fab fa-facebook-square float-left d-xl-flex"
                                               style="font-size: 45px;"></i></a>
           <a><i class="fab fa-google-plus-square float-left d-xl-flex"
                                             style="font-size: 45px;margin-right: 25px;margin-left: 25px;"></i></a>
-          <a><i class="fab fa-twitter-square d-xl-flex" style="font-size: 45px;"></i></a>
+          <a><i style="font-size: 45px;"></i></a>
         </div>
       </form>
     </div>

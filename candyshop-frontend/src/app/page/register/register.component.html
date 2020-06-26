@@ -1,36 +1,33 @@
-<main class="page register-page" style="height: 100%;">
-  <section
-    class="clean-block clean-form text-center d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-    style="padding-bottom: 0;height: 100%;">
-    <div class="container">
-      <i class="far fa-user d-flex justify-content-center align-items-center" style="font-size: 40px;"></i>
+<main style="height: 100%;">
+  <section style="padding-bottom: 0;height: 100%;">
+    <div>
+      <i style="font-size: 40px;"></i>
       <div>
-        <p
-          class="text-center d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
-          style="margin-bottom: 0;height: 50px;">Erstelle einen neuen Account und werde ein neues Mitglied.
+        <p style="margin-bottom: 0;height: 50px;">
+          Erstelle einen neuen Account und werde ein neues Mitglied.
         </p>
       </div>
-      <form class="text-left" style="background-color: #222;border-color: darkorange;">
-        <div class="form-group">
+      <form>
+        <div>
           <label for="email">Email</label>
-          <input class="form-control item" id="email" name="email" type="email">
+          <input id="email" name="email" type="email">
         </div>
-        <div class="form-group" class="alert alert-danger">Ungültige Email</div>
-        <div class="form-group">
+        <div>Ungültige Email</div>
+        <div>
           <label for="password">Passwort</label>
-          <input class="form-control item" id="password" name="password" type="password">
+          <input id="password" name="password" type="password">
         </div>
-        <div class="form-group">
+        <div>
           <label for="repeatPassword">Passwort wiederholen</label>
-          <input class="form-control item" id="repeatPassword" name="repeatPassword"
+          <input id="repeatPassword" name="repeatPassword"
                  type="password">
         </div>
-        <div class="form-group" class="alert alert-danger">Ungültiges Passwort</div>
-        <div class="form-group" class="alert alert-danger">Passwörter stimmen nicht
+        <div>Ungültiges Passwort</div>
+        <div>Passwörter stimmen nicht
           überein.
         </div>
-        <button class="btn btn-primary btn-block" type="submit">Registrieren</button>
-        <button class="btn btn-outline-primary btn-block" routerLink="/login" type="submit">Anmelden</button>
+        <button type="submit">Registrieren</button>
+        <button routerLink="/login" type="submit">Anmelden</button>
       </form>
     </div>
   </section>
