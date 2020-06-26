@@ -16,7 +16,7 @@ Der Einkäufer stellt einen Besucher/Nutzer der Webseite dar. Er/Sie soll durch 
 Administrator:
 Der Admin stellt die Person dar, die die Webseite des Online-Shops verwalten kann, dazu gehört Süssigkeiten hinzufügen, entfernen oder bearbeiten.
 
-### User Stories
+### UserType Stories
 
 * Der Benutzer soll druch die angebotenen Süssigkeiten stöbern können, um sich einen Überblick zu verschaffen.
 * Der Benutzer soll sich registrieren können, damit er die ausgewählten Süssigkeiten einkaufen kann.
